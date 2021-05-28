@@ -7,5 +7,4 @@ Then run the docker-compose:
     docker-compose up
 
 
-After that, use `request.sh` to test the response times.
-Chain multiple request.sh calls with `&`, it's not pretty but it will do.
+After that, use `request.sh N` to test the response times, where `N` represents the number of concurrent calls you want to make. It will print the results to console so don't go crazy.
